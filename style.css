@@ -3,24 +3,27 @@ header {
     font-weight: bold;
     text-align: center;
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 .container {
-    width: auto;
-    border: 1px solid black;
+    width: 75%;
+    border: 1px solid rgb(165, 165, 165);
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
+    margin: 50px auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* position: relative; */
     text-align: center;
-    margin-bottom: 40px; */
+    /* margin-bottom: 40px; */
     
 }
 
 .container-color-blue {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     background-color: #2d5dcc;
     width: 300px;
     height: 50px;
@@ -33,6 +36,7 @@ header {
 
 .container-color-dark-turquoise {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     background-color: #00CED1;
     width: 300px;
     height: 50px;
@@ -41,4 +45,97 @@ header {
     text-align: center;
     color: black;
     display: inline-block;
+}
+
+.container-color-sandy-brown {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #f4a460;
+    width: 300px;
+    height: 50px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
+
+.container-color-royal-blue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #4169E1;
+    width: 300px;
+    height: 50px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.container-color-medium-sea-green {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #3cb371;
+    width: 300px;
+    height: 50px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.container-color-orange-red {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #FF4500;
+    width: 300px;
+    height: 50px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.container-fonts {
+    width: 75%;
+    border: 1px solid rgb(165, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 50px auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* position: relative; */
+    text-align: center;
+    /* margin-bottom: 40px; */
+    max-height: 500px;
+    
+}
+
+.container-font-lato{
+    font-family: "Lato";
+    text-align: left;
+    display: inline;
+    padding: 30px;
+}
+
+.container-font-lato > h4{
+    font-family: "Lato";
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.font-lato-100 {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: bold;
+}
+
+.font-lato-900 {
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: bolder;
 }
